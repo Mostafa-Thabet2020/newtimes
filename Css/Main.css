@@ -4,18 +4,22 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 10 px;
     background-color: rgb(16, 68, 83);
+    color: white;
 }
 
 
     
-
+h1,h2,h3,h4,h5,h6{
+  color: white;
+  margin: 10px;
+}
+p{
+  margin: 15px;
+}
 h3{text-align: center;
     padding-bottom: 0%;
     overflow: hidden;
     font-size: 40px;
-    color: black;
-
-
 }
 h6{
     margin-bottom: 0%;
@@ -40,11 +44,14 @@ footer{
 }
 .boxes{
   display: block;
+  text-align: center;
 }
 .Box {
+  text-align: center;
+  color: black;
   display: inline-table;
   width: 35%;
-  margin: 15px;
+  /* margin: 15px; */
   background-color: white;
   padding: 15px;
   border-radius: 15px;
